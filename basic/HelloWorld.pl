@@ -1,2 +1,3 @@
-#!/user/bin/perl
+#!/usr/bin/perl
 print "Hello, world!\n";
+
