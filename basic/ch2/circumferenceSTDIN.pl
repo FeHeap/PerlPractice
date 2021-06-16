@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-
+#count the circumference of the circle r = <STDIN>
 chomp($r = <STDIN>);
 $PI = 3.141592654;
 print"Input radius:";
