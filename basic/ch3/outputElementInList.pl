@@ -10,7 +10,7 @@ print"|5|wilma     |\n";
 print"|6|pebbles   |\n";
 print"|7|bamm-bamm |\n";
 print"--------------\n";
-print"Input list of number(separated by '\\n') in the table above,\n";
+print"Input a number list(separated by '\\n') in the table above,\n";
 print"and it will print the names you assigned.\n";
 print"(Linux/Mac press Ctrl + D at the end, windows press Ctrl + Z)\n";
 print"Input:\n";
