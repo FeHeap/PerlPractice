@@ -5,5 +5,5 @@ print"Input:\n";
 chomp(@input = <STDIN>);
 @output = reverse(@input);
 print"\n";
-print"output:\n";
+print"Output:\n";
 print"@output\n";
