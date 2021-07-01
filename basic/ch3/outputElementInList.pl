@@ -17,6 +17,11 @@ print"Input:\n";
 chomp(@input = <STDIN>);
 print"\nOutput:\n";
 foreach $number (@input){
-        print"$nameList[$number-1] ";
+        if($number >= 1 && $number <= 7){
+                print"$nameList[$number-1] ";
+        }
+        else{
+                print"Undefined ";
+        }
 }
 print"\n";
