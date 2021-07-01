@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-print"Input some string list(separated by '\\n') and it will print it reverse.\n";
+print"Input a string list(separated by '\\n') and it will print the list reverse.\n";
 print"(Linux/Mac press Ctrl + D at the end, windows press Ctrl + Z)\n";
 print"Input:\n";
 chomp(@input = <STDIN>);
