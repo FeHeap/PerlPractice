@@ -4,7 +4,7 @@ use feature 'state';
 
 &greet( "Fred" );
 &greet( "Barney" );
-
+&greet( "Fe" );
 
 sub greet{
         state @who;
@@ -14,5 +14,7 @@ sub greet{
         }
         else{
                 print "Hi @_! @who is also here!\n";
+                @who = @_;
         }
 }
+
